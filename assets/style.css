@@ -11,7 +11,7 @@
     }
     .appointment-btn {
       background-color: #4b0082;
-      color: white;
+      color: black;
       font-weight: bold;
       border-radius: 20px;
       padding: 8px 20px;
@@ -72,7 +72,21 @@
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
     }
-
+.herohigh{
+    background-color: #ffde59;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(243, 57, 80, 0.2);
+    color:#f33950 ;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 3px solid #f33950;
+}
+.bg-light{
+  background-color: #f33950 !important;
+  border-top: 2px solid white;
+}
  
     @media (max-width: 767px) {
       .hero-section {
@@ -92,7 +106,7 @@
     }
 
      .blinking-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     animation: blinkText 1.2s infinite;
     font-weight: 700;
@@ -111,7 +125,7 @@
   /* Responsive font size */
   @media (max-width: 576px) {
     .blinking-text {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       text-align: center;
     }
   }
