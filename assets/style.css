@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5,h6,p {
     text-align: center;
 }
 .bg-light{
-  background-color: #fbb64d!important;
+  background-color: #3f0534!important;
   border-top: 2px solid white;
 }
  
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5,h6,p {
     background-color: #5f0a52  ;
     padding: 10px;
     border-radius: 20px;
-    border: 4px solid yellow;
+    border: 2px solid yellow;
   }
 
   @keyframes blinkText {
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5,h6,p {
   /* Responsive font size */
   @media (max-width: 576px) {
     .blinking-text {
-      font-size: 1.3rem;
+      font-size: 1rem;
       text-align: center;
     }
   }
@@ -142,7 +142,6 @@ h1, h2, h3, h4, h5,h6,p {
   }
    /* Font & Color */
   .astro-services-section {
-    background: linear-gradient(135deg, #b42741 0%, #e22e4f 100%);
     color: #fff;
     font-family: 'Poppins', sans-serif;
   }
@@ -161,22 +160,17 @@ h1, h2, h3, h4, h5,h6,p {
   .astro-service-card {
     background: #fff;
     color: #4a2c7f;
-    border-radius: 15px;
     box-shadow: 0 10px 20px rgba(107, 44, 145, 0.2);
     transition: all 0.4s ease;
     cursor: pointer;
-    padding: 30px 20px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 3px solid #600c53;
   }
 
-  .astro-service-card:hover {
-    box-shadow: 0 20px 40px rgba(155, 89, 182, 0.5);
-    transform: translateY(-15px);
-    background: #f4e9ff;
-    color: #6b2c91;
-  }
+  
 
   /* Icons */
   .astro-icon {
@@ -303,7 +297,7 @@ h1, h2, h3, h4, h5,h6,p {
 }
 
 .astro-field-card {
-    background-color: #f6ff00;
+    background-color: #160c24;
   border-radius: 20px;
   padding: 30px 20px;
   box-shadow: 0 15px 25px rgba(90, 42, 131, 0.15);
@@ -319,17 +313,18 @@ h1, h2, h3, h4, h5,h6,p {
 
 .field-img {
   width: 100%;
-  height: 150px; /* ya jitna height chahiye */
+  height: 200px; /* ya jitna height chahiye */
   object-fit: cover; /* ya contain, depending on image style */
   margin-bottom: 20px;
   border-radius: 15px; /* agar chahiye rounded corners */
   filter: drop-shadow(0 2px 2px rgba(90, 42, 131, 0.25));
   display: block;
+  border: 3px solid white;
 }
 
 
 .field-title {
-  color:  #f50057;
+  color:  white;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 1.5rem;
@@ -338,7 +333,7 @@ h1, h2, h3, h4, h5,h6,p {
 
 .field-desc {
   font-size: 1rem;
-  color: black;
+  color: white;
   margin-bottom: 25px;
   min-height: 70px;
   line-height: 1.4;
@@ -391,10 +386,10 @@ h1, h2, h3, h4, h5,h6,p {
 
 
 .astrology-fields .d-flex {
-  background: #f6ff00;
+  background: white;
   border: 2px solid #e5d3f2; /* soft purple border */
   border-radius: 15px;
-  padding: 10px;
+  padding: 5px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 12px rgba(143, 96, 192, 0.1);
 }
@@ -409,12 +404,11 @@ h1, h2, h3, h4, h5,h6,p {
   color: #7928CA;
   min-width: 50px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   margin-right: 5px;
 }
 .fw-semibold{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 
@@ -498,6 +492,9 @@ h1, h2, h3, h4, h5,h6,p {
     display: inline-block;
     margin-top: 8px;
     margin-left: 0;
+    font-size: 20px;
+  }
+  .contactwp{
     font-size: 20px;
   }
 }
